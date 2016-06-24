@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25402.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D7D5B82-5134-4B99-B23A-03E1B9EF499D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C80B2AE-EADB-484B-939B-2856C4F71A54}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MusicGithub", "src\MusicGithub\MusicGithub.xproj", "{A581AF14-980E-452A-BC99-83176A6FD76F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A581AF14-980E-452A-BC99-83176A6FD76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A581AF14-980E-452A-BC99-83176A6FD76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A581AF14-980E-452A-BC99-83176A6FD76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A581AF14-980E-452A-BC99-83176A6FD76F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A581AF14-980E-452A-BC99-83176A6FD76F} = {8D7D5B82-5134-4B99-B23A-03E1B9EF499D}
+	EndGlobalSection
+EndGlobal
